@@ -24,7 +24,7 @@ const ownerNumber = ['923361937779']
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
 if(!config.SESSION_ID) return console.log('GHOST-MD=zJ1SzCBB#UZDUTDXw0_DvJf3PkDKuQGVcU32piToXf26wwFsBWD0')
-const sessdata = config.SESSION_ID
+const sessdata = config.GHOST-MD=zJ1SzCBB#UZDUTDXw0_DvJf3PkDKuQGVcU32piToXf26wwFsBWD0
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
